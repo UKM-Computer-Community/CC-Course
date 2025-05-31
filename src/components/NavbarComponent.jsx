@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import Logo from "../../public/Logo VIT S.png";
 
 import { navLinks } from "../data/index";
 import { NavLink } from "react-router-dom";
@@ -42,9 +43,11 @@ export default function NavbarComponent() {
 						})}
 					</Nav>
 					<div className="text-center">
-						<button className="btn btn-outline-cc rounded-1">
-							Join With Us
-						</button>
+						<a href="https://hasil-lomba-website-fit-2025.vercel.app/" target="_blank">
+							<button className="btn btn-outline-cc rounded-1">
+								<img src={Logo} alt=""/>
+							</button>
+						</a>
 					</div>
 				</Navbar.Collapse>
 			</Container>

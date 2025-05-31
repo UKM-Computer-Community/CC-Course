@@ -43,9 +43,14 @@ export default function HomePage() {
 							>
 								Lihat Kelas
 							</button>
-							<button className="btn btn-outline-cc btn-lg rounded-1 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-1s">
-								Lihat Promo
-							</button>
+							<a
+								href="https://chat.whatsapp.com/JO4hCvARrFcHIqQC8dMS68"
+								target="_blank"
+							>
+								<button className="btn btn-outline-cc btn-lg rounded-1 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-1s">
+									Ikuti Kelas Mentoring
+								</button>
+							</a>
 						</Col>
 					</Row>
 				</Container>
@@ -84,9 +89,12 @@ export default function HomePage() {
 									</div>
 									<h5 className="mb-5 px-3">{kelas.title}</h5>
 									<div className="ket d-flex justify-content-between align-items-center px-3 pb-3">
-										<p className="m-0 text-primary fw-bold">{kelas.price}</p>
-										<button className="btn btn-danger rounded-1">
-											{kelas.buy}
+										<p className="m-0 text-primary fw-bold">{kelas.kategori}</p>
+										<button
+											className="btn btn-danger rounded-1"
+											onClick={() => navigate(kelas.path)}
+										>
+											{kelas.open}
 										</button>
 									</div>
 								</Col>

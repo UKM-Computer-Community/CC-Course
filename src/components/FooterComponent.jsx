@@ -14,16 +14,24 @@ export default function FooterComponent() {
 							dolorum atque!
 						</p>
 						<div className="no mb-1 mt-4">
-							<Link className="text-decoration-none">
+							<a
+								href="https://wa.me/6288291375357"
+								className="text-decoration-none"
+								target="_blank"
+							>
 								<i className="fa-brands fa-whatsapp"></i>
 								<p className="m-0">+62 882-9137-5357</p>
-							</Link>
+							</a>
 						</div>
 						<div className="email">
-							<Link className="text-decoration-none">
+							<a
+								href="mailto:ccunbaja2010@gmail.com"
+								className="text-decoration-none"
+								target="_blank"
+							>
 								<i className="fa-regular fa-envelope"></i>
 								<p className="m-0">ccunbaja2010@gmail.com</p>
-							</Link>
+							</a>
 						</div>
 					</Col>
 					<Col className="d-flex flex-column col-lg-2 col mt-lg-0 mt-5">
@@ -43,9 +51,27 @@ export default function FooterComponent() {
 							</button>
 						</div>
 						<div className="social mt-3">
-							<i className="fa-brands fa-github"></i>
-							<i className="fa-brands fa-linkedin"></i>
-							<i className="fa-brands fa-instagram"></i>
+							<a
+								href="https://github.com/ccunbaja"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<i className="fa-brands fa-github"></i>
+							</a>
+							<a
+								href="https://www.linkedin.com/in/amelia-akhila-05339622a/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<i className="fa-brands fa-linkedin"></i>
+							</a>
+							<a
+								href="https://www.instagram.com/ccunbaja/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<i className="fa-brands fa-instagram"></i>
+							</a>
 						</div>
 					</Col>
 				</Row>

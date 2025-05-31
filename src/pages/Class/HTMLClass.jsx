@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function HTMLClass() {
 	return (
-		<div className="HtmlClass min-vh-100">
+		<div className="allClass min-vh-100">
 			<Container className="pt-5 px-5 rounded-3">
 				<Row>
 					<Col>
