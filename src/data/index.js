@@ -351,7 +351,7 @@ export const faq = [
 		id: 2,
 		eventKey: 1,
 		title: "Bagaimana Sistem Belajarnya?",
-		desc: "Deangan membaca materi yang ada lalu mempraktekanya",
+		desc: "Dengan membaca materi yang ada lalu mempraktekanya",
 	},
 	{
 		id: 3,
@@ -386,7 +386,7 @@ export const faq = [
 	{
 		id: 8,
 		eventKey: 7,
-		title: "Bagaimana Cara Joinya?",
+		title: "Bagaimana Cara Joinnya?",
 		desc: "Pastinya wajib jadi anggota CC dulu dong nanti baru bisa akses dan join kelas mentoringnya",
 	},
 ];

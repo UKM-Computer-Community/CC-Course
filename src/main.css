@@ -157,6 +157,33 @@ header {
     .HomePage .header-box p {
         font-size: 12px;
     }
+
+    .allClass .container .row h1 {
+        font-size: 20px;
+    }
+
+    .allClass .container .row h2,
+    .allClass .container .row h3 {
+        font-size: 15px;
+    }
+
+    .allClass .container .row p {
+        font-size: 12px;
+    }
+
+    .allClass .container table th,
+    .allClass .container table td {
+        font-size: 12px;
+    }
+
+    .allClass .container pre code {
+        font-size: 10px;
+    }
+
+    .allClass .container ul li,
+    .allClass .container ol li {
+        font-size: 12px;
+    }
 }
 
 /* HomePage Header */
@@ -357,17 +384,75 @@ header {
     border-radius: 10px;
 }
 
-.allClass .row:nth-child(1) h1 {
+.allClass .container .row p {
+    text-align: justify;
+}
+
+.allClass .container table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.allClass .container table th,
+.allClass .container table td {
+    border: 1px solid var(--secondary-color);
+}
+
+.allClass .container table th {
+    background-color: #d3e5ff;
+    color: var(--secondary-color);
+}
+
+.allClass .container table td {
     color: var(--color-text);
 }
 
-.allClass .row:nth-child(3) table {
-    background-color: var(--primary-color);
-    border: 2px solid var(--secondary-color);
+.allClass .container table th:first-child {
+    border-top-left-radius: 10px;
 }
 
-.allClass .row:nth-child(3) table thead tr th {
+.allClass .container table th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.allClass .container table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.allClass .container table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.allClass .container ul li span.text-primary,
+.allClass .container ul li span.text-danger {
+    font-weight: 500;
+    line-height: 2;
+}
+
+.allClass .container ol li {
+    font-weight: 500;
+    line-height: 2;
+}
+
+.allClass .container ol li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.allClass .container ol li a:hover {
     color: var(--secondary-color);
+}
+
+.allClass .container .row:nth-child(5) .border {
+    border: 3px solid var(--navbar-color) !important;
+    background-color: #ff93934b;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* ALL CLASS */

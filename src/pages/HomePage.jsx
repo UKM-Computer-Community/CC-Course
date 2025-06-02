@@ -34,8 +34,9 @@ export default function HomePage() {
 								Ayo Asah <br /> <span>Bakat Kerenmu</span> <br /> Bersama Kita
 							</h1>
 							<p className="mb-4 animate__animated animate__fadeInUp animate__delay-1s">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-								error amet consequuntur, neque nihil non?
+								Belajar HTML & CSS jadi lebih mudah dan menyenangkan di sini.
+								Gabung sekarang dan kembangkan kemampuanmu bersama komunitas
+								yang suportif!
 							</p>
 							<button
 								className="btn btn-cc btn-lg rounded-1 me-2 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-1s"
@@ -61,7 +62,8 @@ export default function HomePage() {
 						<Col>
 							<h1 className="text-center fw-bold">New Class</h1>
 							<p className="text-center">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Kelas-kelas terbaru sudah hadir buat kamu yang ingin upgrade
+								skill!
 							</p>
 						</Col>
 					</Row>

@@ -9,9 +9,9 @@ export default function FooterComponent() {
 					<Col lg="5">
 						<h3 className="fw-bold">CC Course.</h3>
 						<p className="desc">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-							iure inventore quis quasi harum quo, ipsa accusantium blanditiis
-							dolorum atque!
+							CC Course adalah platform pembelajaran online yang menyediakan
+							berbagai kelas untuk meningkatkan keterampilan Anda. Bergabunglah
+							dengan kami untuk belajar bersama.
 						</p>
 						<div className="no mb-1 mt-4">
 							<a
